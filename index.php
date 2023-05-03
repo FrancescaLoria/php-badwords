@@ -7,7 +7,16 @@
     <title>Documento</title>
 </head>
 <body>
+
+
     
-<h1>Ciao</h1>
+<form action="manage-data.php" method="POST">
+<div>
+    <textarea rows="10" cols="60" name="paragh"placeholder="Text..."></textarea>
+</div>
+Word: <input type="text" name="badword">
+  <input type="submit">
+</form>
 </body>
+
 </html>
