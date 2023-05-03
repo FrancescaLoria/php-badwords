@@ -1,7 +1,8 @@
 <?php 
 $badWordValue = $_POST["badword"];
 $textAreaValue = $_POST["paragh"];
-$censuredText = str_replace( $badWordValue, "***",$textAreaValue)
+$censuredText = str_replace( $badWordValue, "***",$textAreaValue);
+
 ?>
 
 
